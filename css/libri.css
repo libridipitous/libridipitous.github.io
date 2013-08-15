@@ -1,0 +1,184 @@
+/*Site level*/
+
+body {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: 'Open Sans', 'calibri light', 'trebuchet ms';
+  font-size: 14px;
+  background-image: url('/textures/wavegrid.png');
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: hsla(79, 86%, 39%, 1);
+}
+
+a:hover, a:active {
+  color: hsla(41, 100%, 39%, 1);
+}
+
+.content {
+  height: 100%;
+  background-color: white;
+  position: fixed;
+  top:0;
+  border-color: hsla(97, 9%, 58%, 1);
+  border-style: solid;
+  border-width: 0px 1px 0px 1px;
+
+}
+
+.frame {
+  position: relative;
+}
+
+.content, .frame {
+  left: 375px;
+  width: 65%;
+}
+
+.innerFrame {
+  background-image: url('../textures/light_wool.png');
+  border-color: hsla(97, 9%, 58%, 1);
+  border-width: 1px;
+  border-style: solid;
+  width: 85%;
+  margin: 8% auto 6% auto;
+  padding-bottom: 50px;
+}
+
+div .innerContent, .portfolioContent, .innerText {
+  background-color: hsla(97, 9%, 88%, .5);
+  border-color: hsla(97, 9%, 58%, 1);
+  border-width: 1px;
+  border-style: dashed;
+  width: 85%;
+  text-align: justify;
+}
+
+div .innerContent{
+  margin: 8% auto 0 auto;
+  padding: 1% 1.5% 1% 1.5%;
+}
+
+div .innerText {
+  margin: 5% auto 0 auto;
+  padding: 1% 1.5% 1% 1.5%;
+}
+
+/*Landing*/
+
+#landingBanner {
+  font-family: 'shelleyalive', 'trebuchet ms';
+  font-weight: normal;
+  font-size: 70px;
+  margin: 0px;
+  padding-top: 22%;
+  padding-left: 17%;
+}
+
+/*Nav structure*/
+
+header #nav {
+  position: relative;
+  top: 8%;
+  list-style-type: none;
+  width: 100%;
+  padding: 0px;
+  text-align: center;
+  line-height: 2;
+}
+
+header #bottomLinks {
+  position: absolute;
+  bottom: 1%;
+  width: 100%;
+  text-align: center;
+}
+
+#bottomLinks p {
+  margin: 0px;
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  border-color: hsla(97, 9%, 58%, 1);
+  border-style: solid;
+  border-width: 0px 1px 0px 1px;
+  width: 125px;
+  z-index: 999;
+}
+
+#nav a:link, #nav a:visited, #nav a:hover, #nav a:active {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+#nav a:hover {
+  background-color:hsla(97, 9%, 88%, 1);
+}
+
+#nav #landing a:hover {
+  background-color: transparent;
+}
+
+/*Nav elements*/
+
+#about {
+  font-family: 'kreonregular', 'calibri light', 'trebuchet ms';
+}
+
+#portfolio {
+  font-family: 'sofiaregular', 'calibri light', 'trebuchet ms';
+}
+
+#landing {
+  font-family: 'shelleyalive', 'trebuchet ms';
+  position: relative;
+  left: -46%;
+  font-size: 20px;
+}
+
+#blog {
+  font-family: 'walkway_semiboldregular', 'calibri light', 'trebuchet ms';
+}
+
+#thanks {
+  font-family: 'flamencoregular', 'calibri light', 'trebuchet ms';
+}
+
+#about, #portfolio, #blog, #thanks {
+  font-size: 27px;
+  border-bottom: dashed 1px;
+  border-top: dashed 1px;
+  border-color: hsla(97, 9%, 58%, 1);
+}
+
+
+/*Landing Nav - this only gets used on the landing page */
+
+#landingNav {
+  right: 10%;
+}
+
+#landingNav li {
+  margin: 90px 0;
+}
+
+/*Site Nav - this is the nav for all the rest of the pages, posts, etc.*/
+
+#siteNav li {
+  margin: 60px 0;
+}
+
+#siteNav {
+  left: 8%;
+}

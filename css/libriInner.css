@@ -1,0 +1,171 @@
+/*This is the css for the inner pages (about, portfolio, blog, reading)*/
+
+/*Across inner pages*/
+
+#breadcrumbs {
+  font-family: 'Open Sans', 'calibri light', 'trebuchet ms';
+  font-size: 18px;
+  position: relative;
+  top: 18px;
+  right: 95px;
+}
+
+/*About*/
+
+#aboutBanner, #aboutSubHead1, #aboutSubHead2 {
+  font-family: 'kreonregular', 'trebuchet ms';
+  font-weight: normal;
+}
+
+#aboutBanner {
+  font-size: 50px;
+  margin-left: 12%;
+  margin-bottom: -9.5%;
+  margin-top: 4%;
+}
+
+#aboutSubHead1, #aboutSubHead2 {
+  font-size: 35px;
+  margin-bottom: -9.23%;
+}
+
+#aboutSubHead1 {
+  margin-right: 10%;
+  text-align: right;
+}
+
+#aboutSubHead2 {
+  margin-left: 12%;
+}
+
+/*Portfolio*/
+
+div .portfolioContent {
+  margin: 5% auto 0 auto;
+  padding: 0 2.5%;
+}
+
+#portfolioBanner, #portfolioSubHead1, #portfolioSubHead2,
+#highlightBanner, .portfolioContent h2 {
+  font-family: 'sofiaregular', 'trebuchet ms';
+  font-weight: normal;
+}
+
+#portfolioBanner {
+  font-size: 50px;
+  margin-left: 12%;
+  margin-bottom: -10.3%;
+  margin-top: 20px;
+}
+
+#portfolioSubHead1, #portfolioSubHead2 {
+  font-size: 32px;
+  margin-bottom: -9.7%;
+  text-align: right;
+  margin-right: 10%;
+}
+
+.sliderBox {
+  width: 240px;
+  height: 180px;
+}
+
+#portfolioLinks {
+  margin: -5px auto 50px auto;
+  text-align: center;
+}
+
+#FullResume, #FullCV {
+  background-color: hsla(97, 9%, 88%, .5);
+  border-color: hsla(97, 9%, 58%, 1);
+  border-width: 1px;
+  border-style: solid;
+  font-size: 20px;
+}
+
+#FullResume {
+  padding: 25px;
+}
+
+#FullCV {
+  padding: 25px 57px;
+  margin-left: 3px;
+}
+
+#portfolioLinks img {
+  height: 75px;
+  vertical-align: middle;
+  position: relative;
+  bottom: 10px;
+}
+
+#highlightBanner {
+  font-size: 35px;
+  margin-left: 12%;
+  margin-bottom: -9.6%;
+  margin-top: 20px;
+}
+
+.portfolioContent h2 {
+  font-size: 25px;
+  font-weight: normal;
+  margin: 0px;
+}
+
+.portfolioContent ul {
+  list-style-type: circle;
+}
+
+.portfolioContent p, ul {
+  line-height: 1.75;
+}
+
+/*Blog*/
+
+#blogBanner, .blogSubHead1, .blogSubHead2, #blogHeader {
+  font-family: 'walkway_semiboldregular', 'trebuchet ms';
+  font-weight: normal;
+}
+
+#blogBanner {
+  font-size: 50px;
+  margin-left: 12%;
+  margin-bottom: -9%;
+  margin-top: 20px;
+}
+
+div .blogExerpt {
+  width: 90%;
+}
+
+.blogExerpt a:link, .blogExerpt a:visited, .blogExerpt a:hover {
+  color: black;
+}
+
+.blogSubHead1, .blogSubHead2 {
+  font-size: 25px;
+  margin-bottom: -8.7%;
+}
+
+.blogSubHead1 {
+  margin-right: 10%;
+  text-align: right;
+}
+
+.blogSubHead2 {
+  margin-left: 12%;
+}
+
+/*Thanks*/
+
+#thanksBanner {
+  font-family: 'flamencoregular', 'trebuchet ms';
+  font-weight: normal;
+}
+
+#thanksBanner {
+  font-size: 47px;
+  margin-left: 12%;
+  margin-bottom: -9.2%;
+  margin-top: 4%;
+}
