@@ -76,8 +76,9 @@ div .innerText {
   font-family: 'shelleyalive', 'trebuchet ms';
   font-weight: normal;
   font-size: 70px;
-  margin: 0% 17%;
-  padding-top: 22%;
+  position: absolute;
+  right: 375px;
+  top: 300px;
 }
 
 /*Nav structure*/
@@ -142,7 +143,7 @@ header {
 #landing {
   font-family: 'shelleyalive', 'trebuchet ms';
   position: relative;
-  left: -46%;
+  right: 56px;
   font-size: 20px;
 }
 
@@ -165,7 +166,7 @@ header {
 /*Landing Nav - this only gets used on the landing page */
 
 #landingNav {
-  right: 10%;
+  right: 100px;
 }
 
 #landingNav li {
