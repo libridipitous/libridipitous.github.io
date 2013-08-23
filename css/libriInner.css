@@ -10,6 +10,10 @@
   right: 95px;
 }
 
+.imageFrame {
+  text-align: center;
+}
+
 /*About*/
 
 #aboutBanner, #aboutSubHead1, #aboutSubHead2 {
@@ -118,6 +122,12 @@ div .portfolioContent {
 
 .portfolioContent p, ul {
   line-height: 1.75;
+}
+
+.portfolioContent img {
+  width: 575px;
+  border: 1px solid black;
+  margin: 5px;
 }
 
 /*Blog*/
