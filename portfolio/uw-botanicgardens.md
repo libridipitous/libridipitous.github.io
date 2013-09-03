@@ -30,7 +30,7 @@ Grid 14-6E had not been inventoried in some time; many of the plants were missin
 To further complicate the matter, another Rhododendron 'Azor' plant with a different accession number (2415-37) had also been planted in grid 14-6E. So, the unlabeled plants could potentially have originally belonged to either accession number. And given that they had been received only one year apart, they were visually very similar. This is what the map looked like after we finished that field check (the 'Azor' plants are in the red box):
 
 <div class="imageFrame">
-  <img src="\portfolio\UWBG-DFW-images\working-map.png" title="Working Map of Grid 14-6E"/>
+  <img src="/portfolio/UWBG-DFW-images/working-map.png" title="Working Map of Grid 14-6E"/>
 </div>
 
 After finding this discrepancy, I knew I was going to need to examine the Arboretum's records on these plants to begin to sort it out. Prior to the adoption of BG-Base (a database tailored specifically to the needs of botanical gardens) in the late 1990s, all records of plantings and plant conditions were kept on 5"x7" cards.
@@ -40,7 +40,7 @@ The card for a given plant generally contains the plant's name and accession num
 In the case of the Rhododendron 'Azor' plants in this grid, the cards for both accession numbers were quite packed. One interesting piece of information on them was that each accession number originally applied to quite a few plants. Thirty-nine plants were originally given the accession number 2351-38, and another fifteen plants were given the accession number 2415-37! Below are the two cards side by side:
 
 <div class="imageFrame">
-  <img src="\portfolio\UWBG-DFW-images\cards.png" title="Card Records for the 'Azor' Plants"/>
+  <img src="/portfolio/UWBG-DFW-images/cards.png" title="Card Records for the 'Azor' Plants"/>
 </div>
 
 Because the unlabeled plants could feasibly belong to either accession number, I needed to find more information about when and where they were planted in the hopes that there might be some reference that I could connect to the plants I was looking at. Luckily, the Records Office of the Washington Park Arboretum holds a wide variety of records including accession ledgers (used to record plants as they were acquired by the arboretum), old versions of the grid maps, and the original planting records created by the horticultural staff.
@@ -54,7 +54,7 @@ In spite of the general lack of information we had to go on, the Registrar and I
 Having come to that conclusion, the next step was to update the records in BG-base to accurately represent the plants in the field. Up until this point, all six 'Azor' plants had been represented by two numbers: 2351-38-A and 2351-38-B. The "-A" and "-B" are vitally important, as they are the only way the staff of the Arboretum can identify a specific plant from an accession number that belongs to multiple plants. After completing this process, each plant had a record that looked similar to the one below:
 
 <div class="imageFrame">
-  <img src="\portfolio\UWBG-DFW-images\bgbase-record.png" title="Updated BG-Base Record for an 'Azor'"/>
+  <img src="/portfolio/UWBG-DFW-images/bgbase-record.png" title="Updated BG-Base Record for an 'Azor'"/>
 </div>
 
 Going forward, the horticultural and records staff will be able to record field checks that apply to a specific plant. So, if 2351-38-C, for instance, were to have particularly abundant flowers next year, it would be very easy for a staff member or volunteer to record the exceptional condition of that plant, thus enriching the quality of records the Arboretum maintains.
@@ -66,7 +66,7 @@ After becoming quite familiar with the grid inventory process over the course of
 When I was first given the manual to begin to familiarize myself with the inventory process, I noticed that several of the procedures it detailed didn't match up with how the Registrar had described the process to me. As I began to conduct grid inventories myself, more and more discrepancies arose. After discussing this with the Registrar, it was decided that it was time for an update to be done, and that I would be in a good position to do it.
 
 <div class="imageFrame">
-  <img src="\portfolio\UWBG-DFW-images\manual.png" title="Updated Grid Inventory Manual"/>
+  <img src="/portfolio/UWBG-DFW-images/manual.png" title="Updated Grid Inventory Manual"/>
 </div>
 
 In addition to simply updating the procedures detailed by the manual, I identified a number of other stylistic and organization issues with the current version of the manual. Often, procedures were described in an unnecessarily complex fashion and "how" to do a procedure was frequently conflated with "why" it needed to be done.
