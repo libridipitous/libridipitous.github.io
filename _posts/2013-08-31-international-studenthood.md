@@ -2,7 +2,7 @@
 layout: blog-post
 title:  "International Studenthood"
 date:   2013-08-31
-categories: denmark
+categories: denmark-study-abroad
 ---
 
 In the week since my arrival in Copenhagen, many things have required a bit of extra effort on my part to get used to. This, I'm sure, is only to be expected in a new city and country. Happily, I can announce that I have made _some_ headway towards being a functional city dweller.

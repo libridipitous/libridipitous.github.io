@@ -14,6 +14,17 @@
   text-align: center;
 }
 
+.imageFrame img {
+  width: 675px;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.imageFrame p {
+  font-size: 11px;
+  margin: 0px;
+}
+
 /*About*/
 
 #aboutBanner, #aboutSubHead1, #aboutSubHead2 {
@@ -124,25 +135,27 @@ div .portfolioContent {
   line-height: 1.75;
 }
 
-.portfolioContent img {
-  width: 575px;
-  border: 1px solid black;
-  margin: 5px;
-}
-
 /*Blog*/
 
-#blogBanner, .blogSubHead1, .blogSubHead2, #blogHeader {
+#blogBanner, .blogSubHead1, .blogSubHead2, #blogPostTitle {
   font-family: 'walkway_semiboldregular', 'trebuchet ms';
   font-weight: normal;
 }
 
-#blogBanner {
-  font-size: 50px;
+#blogBanner, #blogPostTitle {
   margin-left: 12%;
-  margin-bottom: -9%;
   margin-top: 20px;
 }
+
+#blogBanner {
+  font-size: 50px;
+  margin-bottom: -9%;
+}
+#blogPostTitle {
+  font-size: 35px;
+  margin-bottom: -8.7%;
+}
+
 
 div .blogExerpt {
   width: 90%;
@@ -164,6 +177,12 @@ div .blogExerpt {
 
 .blogSubHead2 {
   margin-left: 12%;
+}
+
+.blogContent h2 {
+  font-family: 'kreonregular', 'trebuchet ms';
+  font-weight: normal;
+  font-size: 12px;
 }
 
 /*Thanks*/
