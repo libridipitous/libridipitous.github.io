@@ -1,5 +1,9 @@
 /*Site level*/
 
+body, html {
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -7,6 +11,16 @@ body {
   font-family: 'Open Sans', 'calibri light', 'trebuchet ms';
   font-size: 14px;
   background-image: url('/textures/wavegrid.png');
+}
+
+body.landing {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+body.site {
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -24,21 +38,23 @@ a:hover, a:active {
 .content {
   height: 100%;
   background-color: white;
-  position: fixed;
-  top:0;
   border-color: hsla(97, 9%, 58%, 1);
   border-style: solid;
   border-width: 0px 1px 0px 1px;
+  z-index: 1;
+  position: fixed;
+}
 
+.content,
+.frame {
+  width: 65%;
+  left: 300px;
+  top: 0;
 }
 
 .frame {
+  z-index: 10;
   position: relative;
-}
-
-.content, .frame {
-  left: 375px;
-  width: 65%;
 }
 
 .innerFrame {
@@ -76,47 +92,40 @@ div .innerText {
   font-family: 'shelleyalive', 'trebuchet ms';
   font-weight: normal;
   font-size: 70px;
-  position: absolute;
-  right: 375px;
-  top: 300px;
+  margin-right: 300px;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 /*Nav structure*/
 
-header #nav {
-  position: relative;
-  top: 8%;
-  list-style-type: none;
-  width: 100%;
-  padding: 0px;
-  text-align: center;
-  line-height: 2;
-}
+#nav, #landingNav {
+  padding: 0;
+  margin: 0 15px;
 
-header #bottomLinks {
-  position: absolute;
-  bottom: 1%;
-  width: 100%;
-  text-align: center;
-}
-
-#bottomLinks p {
-  margin: 0px;
-}
-
-header {
-  background-color: white;
+  list-style: none;
+  display: flex;
+  min-width: 125px;
+  max-width: 150px;
+  height: 100%;
   position: fixed;
   top: 0;
-  height: 100%;
+  z-index: 999;
+
+  background-color: white;
   border-color: hsla(97, 9%, 58%, 1);
   border-style: solid;
   border-width: 0px 1px 0px 1px;
-  width: 125px;
-  z-index: 999;
+
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: stretch;
 }
 
-#nav a:link, #nav a:visited, #nav a:hover, #nav a:active {
+#nav a:link,
+#nav a:visited,
+#nav a:hover,
+#nav a:active {
   display: block;
   color: black;
   text-decoration: none;
@@ -140,7 +149,12 @@ header {
   font-family: 'sofiaregular', 'calibri light', 'trebuchet ms';
 }
 
-#landing {
+.landing #landing {
+  display: none;
+}
+
+.site #landing {
+  display: none;
   font-family: 'shelleyalive', 'trebuchet ms';
   position: relative;
   right: 56px;
@@ -160,25 +174,28 @@ header {
   border-bottom: dashed 1px;
   border-top: dashed 1px;
   border-color: hsla(97, 9%, 58%, 1);
+  text-align: center;
 }
 
 
 /*Landing Nav - this only gets used on the landing page */
 
-#landingNav {
+.landing #nav {
   right: 100px;
-}
-
-#landingNav li {
-  margin: 90px 0;
 }
 
 /*Site Nav - this is the nav for all the rest of the pages, posts, etc.*/
 
-#siteNav li {
-  margin: 60px 0;
+.site #nav {
+  left: 100px;
 }
 
-#siteNav {
-  left: 8%;
+/* Media Queries */
+
+@media (max-width: 1275px) {
+
+  body {
+    color: red;
+  }
+
 }

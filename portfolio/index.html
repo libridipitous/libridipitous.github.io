@@ -5,32 +5,33 @@ title: Portfolio
 <!-- bxSlider CSS file -->
 <link href="/css/jquery.bxslider.css" rel="stylesheet" />
 
-<div class='content'></div>
-<div class='frame'>
-  <h1 id="portfolioBanner">Portfolio
-    <span id="breadcrumbs">
-      <a href="/docs/L.LestzResume.pdf">Resum&eacute;</a> &amp; <a href="/docs/L.LestzCV.pdf">CV</a>
-    </span>
-  </h1>
-  <div class='innerFrame'>
-    <h2 id="portfolioSubHead1">iSchool Projects</h2>
-    <div class="innerContent">
-      <ul class="bxslider">
-        <li><img src="/images/thumbnail598project.png" class="sliderBox" title="site classification schemes"/></li>
-        <li><img src="/images/thumbnail570project.png" class="sliderBox" title="eBook development"/></li>
-        <li><img src="/images/thumbnail537project.png" class="sliderBox" title="indexing language"/></li>
-      </ul>
+<div class='content'>
+  <div class='frame'>
+    <h1 id="portfolioBanner">Portfolio
+      <span id="breadcrumbs">
+        <a href="/docs/L.LestzResume.pdf">Resum&eacute;</a> &amp; <a href="/docs/L.LestzCV.pdf">CV</a>
+      </span>
+    </h1>
+    <div class='innerFrame'>
+      <h2 id="portfolioSubHead1">iSchool Projects</h2>
+      <div class="innerContent">
+        <ul class="bxslider">
+          <li><img src="/images/thumbnail598project.png" class="sliderBox" title="site classification schemes"/></li>
+          <li><img src="/images/thumbnail570project.png" class="sliderBox" title="eBook development"/></li>
+          <li><img src="/images/thumbnail537project.png" class="sliderBox" title="indexing language"/></li>
+        </ul>
+      </div>
+      <h2 id="portfolioSubHead2">Resum&eacute; Highlights</h2>
+      <div class="innerContent">
+        <ul class="bxslider">
+          <li><img src="/images/thumbnailMicNews.png" class="sliderBox" title="Microforms &amp; Newspapers at Suzzallo Library"/></li>
+          <li><a href="uw-botanicgardens"><img src="/images/thumbnailUWBG.png" class="sliderBox" title="University of Washington Botanic Gardens" data-url="uw-botanicgardens"/></a></li>
+          <li><img src="/images/thumbnailSSO.png" class="sliderBox" title="Sammammish Symphony Orchestra"/></li>
+        </ul>
+      </div>
     </div>
-    <h2 id="portfolioSubHead2">Resum&eacute; Highlights</h2>
-    <div class="innerContent">
-      <ul class="bxslider">
-        <li><img src="/images/thumbnailMicNews.png" class="sliderBox" title="Microforms &amp; Newspapers at Suzzallo Library"/></li>
-        <li><a href="uw-botanicgardens"><img src="/images/thumbnailUWBG.png" class="sliderBox" title="University of Washington Botanic Gardens" data-url="uw-botanicgardens"/></a></li>
-        <li><img src="/images/thumbnailSSO.png" class="sliderBox" title="Sammammish Symphony Orchestra"/></li>
-      </ul>
-    </div>
+    {% include portfolio-links.html %}
   </div>
-  {% include portfolio-links.html %}
 </div>
 
 <!-- jQuery library (served from Google) -->

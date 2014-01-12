@@ -2,13 +2,14 @@
 layout: default
 ---
 
-<div class='content'></div>
-<div class='frame'>
-  <h1 id="highlightBanner">{{ page.title }}</h1>
-  <div class='innerFrame'>
-    <div class="portfolioContent">
-      {{ content }}
+<div class='content'>
+  <div class='frame'>
+    <h1 id="highlightBanner">{{ page.title }}</h1>
+    <div class='innerFrame'>
+      <div class="portfolioContent">
+        {{ content }}
+      </div>
     </div>
+    {% include portfolio-links.html %}
   </div>
-  {% include portfolio-links.html %}
 </div>

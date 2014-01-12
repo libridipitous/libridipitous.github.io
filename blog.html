@@ -4,38 +4,39 @@ title: "Blog: Fluff &amp; Nonsense"
 ---
 
 {% assign numPosts = 3 %}
-<div class='content'></div>
-<div class='frame'>
-  <h1 id="blogBanner">Fluff &amp; Nonsense</h1>
-  <div class='innerFrame'>
-    <h2 class="blogSubHead2">(a blog)</h2>
-    <div class="innerContent">
-      <p>
-        What's with the funny name? Why not call it &ldquo;Libri+Dipitous: a Blog&rdquo;?. Well, basically, the answer is because I want to.
-      </p>
-      <p>
-        Short story long, left to my own devices (and if the domain had been available) I would probably have named my whole site this. Why? Because I thought it was cute, that's why. But, not wanting to give anyone the idea that my portfolio might simply be filled with any sort of fluff <i>or</i> nonsense, I decided it wouldn't do.
-      </p>
-      <p>
-        Thus, the name lives on here, where some of what I write most certainly qualifies as fluff and/or nonsense.
-      </p>
-    </div>
-    {% for post in site.posts limit: numPosts %}
-      <h2 class="blogSubHead{% cycle 1, 2 %}">{{ post.title }}</h2>
+<div class='content'>
+  <div class='frame'>
+    <h1 id="blogBanner">Fluff &amp; Nonsense</h1>
+    <div class='innerFrame'>
+      <h2 class="blogSubHead2">(a blog)</h2>
       <div class="innerContent">
-          <div class="blogExerpt">
-            <a href="{{ post.url }}">
-              {{ post.excerpt }}
-            </a>
-          </div>
-      <div class="more"><a href="{{ post.url }}">read on &rsaquo;</a></div>
+        <p>
+          What's with the funny name? Why not call it &ldquo;Libri+Dipitous: a Blog&rdquo;?. Well, basically, the answer is because I want to.
+        </p>
+        <p>
+          Short story long, left to my own devices (and if the domain had been available) I would probably have named my whole site this. Why? Because I thought it was cute, that's why. But, not wanting to give anyone the idea that my portfolio might simply be filled with any sort of fluff <i>or</i> nonsense, I decided it wouldn't do.
+        </p>
+        <p>
+          Thus, the name lives on here, where some of what I write most certainly qualifies as fluff and/or nonsense.
+        </p>
       </div>
-    {% endfor %}
-    <h2 class="blogSubHead2">Archive</h2>
-    <div class="innerContent">
-    {% for post in site.posts offset: numPosts %}
-      <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-    {% endfor %}
+      {% for post in site.posts limit: numPosts %}
+        <h2 class="blogSubHead{% cycle 1, 2 %}">{{ post.title }}</h2>
+        <div class="innerContent">
+            <div class="blogExerpt">
+              <a href="{{ post.url }}">
+                {{ post.excerpt }}
+              </a>
+            </div>
+        <div class="more"><a href="{{ post.url }}">read on &rsaquo;</a></div>
+        </div>
+      {% endfor %}
+      <h2 class="blogSubHead2">Archive</h2>
+      <div class="innerContent">
+      {% for post in site.posts offset: numPosts %}
+        <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+      {% endfor %}
+      </div>
     </div>
   </div>
 </div>
