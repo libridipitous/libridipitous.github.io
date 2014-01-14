@@ -13,18 +13,28 @@ title: Portfolio
       <a href="/docs/L.LestzResume.pdf">Resum&eacute;</a> &amp; <a href="/docs/L.LestzCV.pdf">CV</a>
     </span>
   </h1>
-  <div class='innerFrame'>
+  <div class='innerFrame innerFrameMini'>
     <h2 id="portfolioSubHead1">iSchool Projects</h2>
-    <div class="innerContent">
+    <div class="innerContent innerContentMini">
       <ul class="bxslider">
+        <li><img src="/images/thumbnail598project.png" class="sliderBox" title="site classification schemes"/></li>
+        <li><img src="/images/thumbnail570project.png" class="sliderBox" title="eBook development"/></li>
+        <li><img src="/images/thumbnail537project.png" class="sliderBox" title="indexing language"/></li>
+      </ul>
+      <ul class="bxslider-mobile">
         <li><img src="/images/thumbnail598project.png" class="sliderBox" title="site classification schemes"/></li>
         <li><img src="/images/thumbnail570project.png" class="sliderBox" title="eBook development"/></li>
         <li><img src="/images/thumbnail537project.png" class="sliderBox" title="indexing language"/></li>
       </ul>
     </div>
     <h2 id="portfolioSubHead2">Resum&eacute; Highlights</h2>
-    <div class="innerContent">
+    <div class="innerContent innerContentMini">
       <ul class="bxslider">
+        <li><img src="/images/thumbnailMicNews.png" class="sliderBox" title="Microforms &amp; Newspapers at Suzzallo Library"/></li>
+        <li><a href="uw-botanicgardens"><img src="/images/thumbnailUWBG.png" class="sliderBox" title="University of Washington Botanic Gardens" data-url="uw-botanicgardens"/></a></li>
+        <li><img src="/images/thumbnailSSO.png" class="sliderBox" title="Sammammish Symphony Orchestra"/></li>
+      </ul>
+      <ul class="bxslider-mobile">
         <li><img src="/images/thumbnailMicNews.png" class="sliderBox" title="Microforms &amp; Newspapers at Suzzallo Library"/></li>
         <li><a href="uw-botanicgardens"><img src="/images/thumbnailUWBG.png" class="sliderBox" title="University of Washington Botanic Gardens" data-url="uw-botanicgardens"/></a></li>
         <li><img src="/images/thumbnailSSO.png" class="sliderBox" title="Sammammish Symphony Orchestra"/></li>
@@ -35,8 +45,6 @@ title: Portfolio
 </div>
 
 
-<!-- jQuery library (served from Google) -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <!-- bxSlider Javascript file -->
 <script src="/js/jquery.bxslider.min.js"></script>
 
@@ -45,6 +53,15 @@ title: Portfolio
     $('.bxslider').bxSlider({
       minSlides: 3,
       maxSlides: 3,
+      slideWidth: 240,
+      slideMargin: 10,
+      captions: true,
+      hyperlinks: true,
+      pager: false
+    });
+    $('.bxslider-mobile').bxSlider({
+      minSlides: 1,
+      maxSlides: 1,
       slideWidth: 240,
       slideMargin: 10,
       captions: true,

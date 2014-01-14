@@ -1,8 +1,26 @@
+<!-- slicknav css -->
+<link rel="stylesheet" href="/css/slicknav-style.css">
+<link rel="stylesheet" href="/css/slicknav.css">
+
 <ul id="nav">
-  <li id="about"><a href="/about">ABOUT</a></li>
+  <li id="about"><a href="/about">about</a></li>
   <li id="portfolio"><a href="/portfolio">portfolio</a></li>
-  <li id="landing"><a href="/">libri+dipitous</a></li>
-  <li id="blog"><a href="/blog">BLOG</a></li>
+  <li id="landing"><a href="/">home</a></li>
+  <li id="blog"><a href="/blog">blog</a></li>
   <li id="thanks"><a href="/thanks">thanks</a></li>
-  <li id="thanks"><a href="">contact</a></li>
+  <li id="contact"><a href="">contact</a></li>
 </ul>
+
+<!-- slicknav jQuery -->
+<script src="/js/jquery.slicknav.js"></script>
+
+<script type="text/javascript">
+
+  $(document).ready(function(){
+    $('#nav').slicknav({
+      label: '',
+      closeOnClick: true,
+    });
+  });
+
+</script>

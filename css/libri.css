@@ -154,11 +154,9 @@ div .innerText {
 }
 
 .site #landing {
-  display: none;
   font-family: 'shelleyalive', 'trebuchet ms';
-  position: relative;
-  right: 56px;
   font-size: 20px;
+  text-align: center;
 }
 
 #blog {
@@ -169,8 +167,23 @@ div .innerText {
   font-family: 'flamencoregular', 'calibri light', 'trebuchet ms';
 }
 
-#about, #portfolio, #blog, #thanks {
+#contact {
+  font-family: 'courier_primeregular', 'calibri light', 'trebuchet ms';
+  font-size: 16px;
+}
+
+#about,
+#portfolio,
+#blog,
+#thanks {
   font-size: 27px;
+}
+
+#about,
+#portfolio,
+#blog,
+#thanks,
+#contact {
   border-bottom: dashed 1px;
   border-top: dashed 1px;
   border-color: hsla(97, 9%, 58%, 1);
@@ -192,10 +205,32 @@ div .innerText {
 
 /* Media Queries */
 
-@media (max-width: 1275px) {
+@media (max-width: 1024px) {
 
-  body {
-    color: red;
+  body.landing {
+    display: inherit;
+  }
+
+  .content {
+    display: none;
+  }
+
+.frame, .content {
+    width: inherit;
+    left: 0px;
+    top: 0;
+  }
+
+  .innerFrameMini {
+    width: inherit;
+    padding: 0px;
+  }
+
+  div .innerContentMini {
+    width: inherit;
+    text-align: justify;
+    background-color: inherit;
+    border: none;
   }
 
 }

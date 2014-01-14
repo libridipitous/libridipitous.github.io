@@ -8,6 +8,7 @@
   position: relative;
   top: 18px;
   right: 95px;
+  display: inline-block;
 }
 
 .imageFrame {
@@ -95,6 +96,7 @@ div .portfolioContent {
   border-width: 1px;
   border-style: solid;
   font-size: 20px;
+  display: inline-block;
 }
 
 #FullResume {
@@ -196,4 +198,33 @@ div .blogExerpt {
   margin-left: 12%;
   margin-bottom: -9.2%;
   margin-top: 4%;
+}
+
+/* media queries */
+
+@media (max-width: 1024px) {
+
+  #portfolioBanner {
+    font-size: 50px;
+    margin-left: 1%;
+    margin-top: 20px;
+  }
+
+  #FullResume, #FullCV {
+    display: none;
+  }
+
+  #breadcrumbs {
+    position: inherit;
+  }
+}
+
+@media (max-width: 328px) {
+
+#breadcrumbs {
+  position: relative;
+  left: 0px;
+  top: -17px;
+}
+
 }
