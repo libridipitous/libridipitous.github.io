@@ -85,6 +85,10 @@ div .portfolioContent {
   height: 180px;
 }
 
+.innerContent > div.bx-wrapper:nth-child(2) {
+  display: none;
+}
+
 #portfolioLinks {
   margin: -5px auto 50px auto;
   text-align: center;
@@ -219,12 +223,27 @@ div .blogExerpt {
   }
 }
 
-@media (max-width: 328px) {
+@media (max-width: 500px) {
 
 #breadcrumbs {
   position: relative;
   left: 0px;
   top: -17px;
+}
+
+.innerContent > div.bx-wrapper:nth-child(1) {
+  display: none;
+}
+
+.innerContent > div.bx-wrapper:nth-child(2) {
+  display: initial;
+}
+
+#portfolioSubHead1, #portfolioSubHead2 {
+font-size: 26px;
+margin-bottom: -8.7%;
+text-align: right;
+margin-right: 2%;
 }
 
 }
