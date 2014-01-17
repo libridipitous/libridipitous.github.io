@@ -189,6 +189,7 @@ div .innerText {
   font-family: 'shelleyalive', 'trebuchet ms';
   font-size: 20px;
   text-align: center;
+  width: 150px;
 }
 
 #blog {
@@ -219,6 +220,7 @@ div .innerText {
   border-top: dashed 1px;
   border-color: hsla(97, 9%, 58%, 1);
   text-align: center;
+  width: 150px;
 }
 
 
