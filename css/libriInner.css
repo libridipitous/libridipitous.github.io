@@ -1,14 +1,11 @@
-/*This is the css for the inner pages (about, portfolio, blog, reading)*/
+/*This is the css for the inner pages (hello, portfolio, blog, reading)*/
 
 /*Across inner pages*/
 
 #breadcrumbs {
   font-family: 'Open Sans', 'calibri light', 'trebuchet ms';
   font-size: 18px;
-  position: relative;
-  top: 18px;
-  right: 95px;
-  display: inline-block;
+  display: none;
 }
 
 .imageFrame {
@@ -25,31 +22,31 @@
   margin: 0px;
 }
 
-/*About*/
+/*hello*/
 
-#aboutBanner, #aboutSubHead1, #aboutSubHead2 {
-  font-family: 'kreonregular', 'trebuchet ms';
+#helloBanner, #helloSubHead1, #helloSubHead2 {
+  font-family: 'flamencoregular', 'trebuchet ms';
   font-weight: normal;
 }
 
-#aboutBanner {
+#helloBanner {
   font-size: 50px;
   margin-left: 12%;
   margin-bottom: -9.5%;
   margin-top: 4%;
 }
 
-#aboutSubHead1, #aboutSubHead2 {
+#helloSubHead1, #helloSubHead2 {
   font-size: 35px;
   margin-bottom: -9.23%;
 }
 
-#aboutSubHead1 {
+#helloSubHead1 {
   margin-right: 10%;
   text-align: right;
 }
 
-#aboutSubHead2 {
+#helloSubHead2 {
   margin-left: 12%;
 }
 
@@ -193,14 +190,14 @@ div .blogExerpt {
 /*Thanks*/
 
 #thanksBanner {
-  font-family: 'flamencoregular', 'trebuchet ms';
+  font-family: 'aleoregular', 'trebuchet ms';
   font-weight: normal;
 }
 
 #thanksBanner {
-  font-size: 47px;
+  font-size: 40px;
   margin-left: 12%;
-  margin-bottom: -9.2%;
+  margin-bottom: -8.9%;
   margin-top: 4%;
 }
 
@@ -214,36 +211,37 @@ div .blogExerpt {
     margin-top: 20px;
   }
 
-  #FullResume, #FullCV {
-    display: none;
-  }
-
   #breadcrumbs {
     position: inherit;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 581px) {
 
-#breadcrumbs {
-  position: relative;
-  left: 0px;
-  top: -17px;
-}
+  #breadcrumbs {
+    position: relative;
+    left: 0px;
+    top: -4px;
+    display: inline-block;
+  }
 
-.innerContent > div.bx-wrapper:nth-child(1) {
-  display: none;
-}
+  .innerContent > div.bx-wrapper:nth-child(1) {
+    display: none;
+  }
 
-.innerContent > div.bx-wrapper:nth-child(2) {
-  display: initial;
-}
+  .innerContent > div.bx-wrapper:nth-child(2) {
+    display: initial;
+  }
 
-#portfolioSubHead1, #portfolioSubHead2 {
-font-size: 26px;
-margin-bottom: -8.7%;
-text-align: right;
-margin-right: 2%;
-}
+  #portfolioSubHead1, #portfolioSubHead2 {
+    font-size: 26px;
+    margin-bottom: -8.7%;
+    text-align: right;
+    margin-right: 2%;
+  }
+
+  #FullResume, #FullCV {
+    display: none;
+  }
 
 }
