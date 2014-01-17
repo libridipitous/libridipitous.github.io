@@ -70,11 +70,20 @@ div .portfolioContent {
   margin-top: 20px;
 }
 
-#portfolioSubHead1, #portfolioSubHead2 {
-  font-size: 32px;
-  margin-bottom: -9.7%;
+#portfolioSubHead1,
+#portfolioSubHead2 {
+  font-size: 27px;
+  margin-bottom: -9.5%;
+}
+
+#portfolioSubHead1 {
   text-align: right;
   margin-right: 10%;
+}
+
+#portfolioSubHead2 {
+  text-align: left;
+  margin-left: 10%;
 }
 
 .sliderBox {
@@ -190,8 +199,8 @@ div .blogExerpt {
 /*Thanks*/
 
 #thanksBanner {
-  font-family: 'aleoregular', 'trebuchet ms';
-  font-weight: normal;
+  font-family: 'snippetregular', 'trebuchet ms';
+  font-weight: 600;
 }
 
 #thanksBanner {
@@ -234,7 +243,6 @@ div .blogExerpt {
   }
 
   #portfolioSubHead1, #portfolioSubHead2 {
-    font-size: 26px;
     margin-bottom: -8.7%;
     text-align: right;
     margin-right: 2%;

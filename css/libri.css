@@ -173,7 +173,8 @@ div .innerText {
 /*Nav elements*/
 
 #thanks {
-  font-family: 'aleoregular', 'calibri light', 'trebuchet ms';
+  font-family: 'snippetregular', 'calibri light', 'trebuchet ms';
+  font-weight: 600;
   font-size: 24px;
 }
 
